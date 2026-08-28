@@ -1,23 +1,24 @@
 [general]
-# import = [
-#     "~/.config/alacritty/themes/gruvbox_dark.toml"
-# ]
+ # import = [
+ #    "/home/kev/.config/alacritty/fonts.toml"
+ # ]
 
 [font]
-size = 11.0
+size = 12.0
 
 [font.normal]
-family = "Sarasa Term SC Nerd Font"
-style = "Medium"
+family = "JetBrainsMono Nerd Font"
+style = "Regular"
 
 [font.bold]
-family = "Sarasa Term SC Nerd Font"
+family = "JetBrainsMono Nerd Font"
 style = "Bold"
 
 [font.italic]
-family = "Sarasa Term SC Nerd Font"
-style = "Italic"          # This links to the standard italic style block
+family = "JetBrainsMono Nerd Font"
+style = "Italic"
 
 [font.bold_italic]
-family = "Sarasa Term SC Nerd Font"
-style = "Bold Italic" 
+family = "JetBrainsMono Nerd Font"
+style = "Bold Italic"
+

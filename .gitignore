@@ -8,4 +8,12 @@ foo.*
 data
 .zcompdump*
 .config/tmux/plugins
-
+.config/dconf/
+.config/dolphinrc
+.config/freenet/
+.config/go/
+.config/mozilla/
+.config/pulse/
+.config/wireplumber/
+.config/QtProject.conf
+.config/obsidian/
