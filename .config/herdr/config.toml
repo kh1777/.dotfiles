@@ -1,0 +1,15 @@
+onboarding = false
+
+[keys]
+prefix = "ctrl+a"
+
+# Copy mode
+copy_mode = "prefix+["
+
+# Tabs: shift+alt+h / shift+alt+l move to the previous / next tab
+previous_tab = ["prefix+p", "alt+shift+h"]
+next_tab = ["prefix+n", "alt+shift+l"]
+
+[theme]
+name = "tokyo-night"
+auto_switch = false
