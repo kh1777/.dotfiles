@@ -14,3 +14,5 @@ $ git clone https://github.com/kh14762/.dotfiles.git
 $ cd .dotfiles
 $ stow .
 ```
+## Stow specific dirs
+stow --target="$HOME/.config/zsh" zsh 

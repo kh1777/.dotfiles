@@ -10,4 +10,5 @@ export ZSH_COMPDUMP="$XDG_CACHE_HOME/zsh/.zcompdump"
 export HISTFILE="$XDG_STATE_HOME/zsh/history"
 
 # Tell zsh where its config is
-export ZDOTDIR="${ZDOTDIR:-$XDG_CONFIG_HOME/zsh}"
+#export ZDOTDIR="${ZDOTDIR:-$XDG_CONFIG_HOME/zsh}"
+export ZDOTDIR="$XDG_CONFIG_HOME/zsh"

@@ -1,0 +1,10 @@
+#!/bin/sh
+
+if [ "${HERDR_TAB_SHELL:-codex}" = "terminal" ]; then
+	if [ -n "${SHELL:-}" ] && [ -x "${SHELL}" ]; then
+		exec "${SHELL}" "$@"
+	fi
+	exec /bin/sh "$@"
+fi
+
+exec codex "$@"

@@ -24,7 +24,7 @@ _fzf_compgen_dir() {
 [[ -s "$SDKMAN_DIR/bin/sdkman-init.sh" ]] && source "$SDKMAN_DIR/bin/sdkman-init.sh"
 
 # syntax highlighting (must be near end)
-#source ~/.zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source ~/.zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # autosuggestions (typically after highlighting)
 source ~/.zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
