@@ -2,18 +2,14 @@ onboarding = false
 
 [ui]
 status_indicators = "symbols"
-# Scroll farther with each mouse-wheel notch.
-mouse_scroll_lines = 16
 
 [terminal]
 # New tabs use the launcher below: Codex by default, or $SHELL when the
-# terminal-tab shortcut marks the new tab explicitly.
-default_shell = "/workspace/.dotfiles/herdr/bin/herdr-tab-shell"
+# terminal-tab shortcut marks the new tab explicitly. Herdr resolves this
+# executable through PATH; it does not expand $HOME in default_shell.
+default_shell = "herdr-tab-shell"
 # Allow Codex pet images to render through Herdr.
 kitty_graphics = true
-
-[worktrees]
-directory = "/workspace/.herdr/worktrees"
 
 [theme]
 name = "tokyo-night"

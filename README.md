@@ -16,7 +16,7 @@ $ stow .
 ```
 ## Stow specific dirs
 ```
-stow -nv --dir=/workspace/.dotfiles/.config --target=$HOME/.config herdr 
+stow -nv --dir=/workspace/.dotfiles/.config --target=$HOME/.config/herdr herdr 
 ```
 --dir: defines where the files are stowed 
 --target: defines where you want to stow the files
