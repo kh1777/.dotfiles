@@ -15,4 +15,10 @@ $ cd .dotfiles
 $ stow .
 ```
 ## Stow specific dirs
-stow --target="$HOME/.config/zsh" zsh 
+```
+stow -nv --dir=/workspace/.dotfiles/.config --target=$HOME/.config herdr 
+```
+--dir: defines where the files are stowed 
+--target: defines where you want to stow the files
+-n: dry run
+-verbose mode
